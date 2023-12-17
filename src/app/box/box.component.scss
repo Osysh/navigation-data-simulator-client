@@ -1,0 +1,23 @@
+:host {
+  background-color: white;
+  border-radius: 6px;
+  border: #c4b7b7 1px solid;
+}
+
+.param-box-wrapper {
+  margin: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title {
+  font-weight: 800;
+  text-align: center;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}

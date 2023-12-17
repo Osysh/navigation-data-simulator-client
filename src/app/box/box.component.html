@@ -1,0 +1,40 @@
+<div class="param-box-wrapper">
+  <span class="title">{{ 'Point de départ' | uppercase }}</span>
+  <div class="input-wrapper">
+    <span>latitude</span>
+    <div>{{ params.from.lat }}</div>
+  </div>
+
+  <div class="input-wrapper">
+    <span>longitude</span>
+    <div>{{ params.from.long }}</div>
+  </div>
+
+  <div class="input-wrapper">
+    <span>date</span>
+    <div>{{ params.from.time }}</div>
+  </div>
+
+  <span class="title">{{ 'Point arrivé' | uppercase }}</span>
+  <div class="input-wrapper">
+    <span>latitude</span>
+    <div>{{ params.to.lat }}</div>
+  </div>
+
+  <div class="input-wrapper">
+    <span>longitude</span>
+    <div>{{ params.to.long }}</div>
+  </div>
+
+  <div class="input-wrapper">
+    <span>date</span>
+    <div>{{ params.to.time }}</div>
+  </div>
+
+  <div class="input-wrapper">
+    <span>interval</span>
+    <div>{{ params.refreshInterval }}</div>
+  </div>
+
+  <button disabled>Change Params</button>
+</div>

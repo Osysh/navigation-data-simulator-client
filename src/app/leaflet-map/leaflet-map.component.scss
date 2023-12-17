@@ -1,0 +1,15 @@
+:host {
+  position: relative;
+}
+
+#map {
+  height: 100% !important;
+}
+
+.controls {
+  position: absolute;
+  display: flex;
+  z-index: 600;
+  top: 122px;
+  left: 12px;
+}
